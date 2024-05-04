@@ -1,0 +1,13 @@
+12
+44E:\Namaste_React\src\dist\index.9e4c6fd2.css133593185943228741 0
+25E:\Namaste_React\src\dist133593185944714787 1
+48E:\Namaste_React\src\dist\index.9e4c6fd2.css.map133593185943288572 0
+36E:\Namaste_React\src\dist\index.html133593185944565170 0
+27E:\Namaste_React\src\App.js133593179875271264 0
+31E:\Namaste_React\src\.gitignore133593185595677432 0
+47E:\Namaste_React\src\dist\index.7826abd7.js.map133593185944694840 0
+43E:\Namaste_React\src\dist\index.7826abd7.js133593185944585118 0
+30E:\Namaste_React\src\index.css133593149232329924 0
+31E:\Namaste_React\src\index.html133593185265600503 0
+38E:\Namaste_React\src\package-lock.json133592833442960917 0
+33E:\Namaste_React\src\package.json133592858704772918 0
