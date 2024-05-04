@@ -1,24 +1,24 @@
 #Namaste React
 
-## git init
+### git init
 
-# git brach -M main - checkout Branch
+### git brach -M main - checkout Branch
 
-# git add .
+### git add .
 
-# git commit -m "Message"
+### git commit -m "Message"
 
-# git remote add origin https://github.com/pranavasree/Namaste-React.git - will do this only for the first time
+### git remote add origin https://github.com/pranavasree/Namaste-React.git - will do this only for the first time
 
-# git push origin main
+### git push origin main
 
-# git fetch origin master:tmp
+### git fetch origin master:tmp
 
-# git rebase tmp
+### git rebase tmp
 
-# git push origin HEAD:master
+### git push origin HEAD:master
 
-# git branch -D tmp
+### git branch -D tmp
 
 #Parcel
 
