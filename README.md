@@ -1,5 +1,12 @@
 #Namaste React
 
+git init
+git brach -M main - checkout Branch
+git add .
+git commit -m "Message"
+git remote add origin https://github.com/pranavasree/Namaste-React.git - will do this only for the first time
+git push origin main
+
 To solve the error follow the below steps
 remote: Invalid username or password.
 fatal: Authentication failed for 'https://github.com/pranavasree/Namaste-React.git/'
