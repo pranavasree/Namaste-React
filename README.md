@@ -40,4 +40,23 @@
 - TREE Shaking - remove unused code (dead code)
 - Transpilation
 - Different build for dev and prod bundles
--
+
+#Header
+
+- Logo
+- nav items
+
+#Body
+
+- Search input
+- Card Container
+  - Crads
+    - img
+    - name of Res, Star Rating, Cusine, Delivery time
+
+#Footer
+
+- Copy right
+- Links
+- Address
+- Contact
