@@ -1,6 +1,6 @@
 #Namaste React
 
-# git init
+## git init
 
 # git brach -M main - checkout Branch
 
