@@ -1,9 +1,15 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
-import { FETCH_API } from "../Utils/constants";
+import { FETCH_API } from "../utils/constants";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
+  // Never use useState out side of component
+  // used to create oacl state variable in functional component
+  // use hooks on the top
+  // never use useState inside any conditions like if() loops for while etc
+  //
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchTxt, setSearchTxt] = useState("");
@@ -63,7 +69,9 @@ const Body = () => {
       </div>
       <div className="res-container">
         {filteredRestaurant.map((x) => (
-          <RestaurantCard key={x.info.id} resData={x} />
+          <Link key={x.info.id} to={"/restaurants/" + x.info.id}>
+            <RestaurantCard resData={x} />
+          </Link>
         ))}
       </div>
     </div>
