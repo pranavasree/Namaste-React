@@ -66,3 +66,8 @@ img {
   cursor: pointer;
   border-radius: 50%;
 }
+
+.user-card {
+  padding: 10px;
+  border: 1px solid black;
+}
