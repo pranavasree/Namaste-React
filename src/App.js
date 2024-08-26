@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -7,6 +7,15 @@ import ContactUs from "./components/ContactUs";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+// import Grocery from "./components/Grocery";
+
+//chunking
+//code splitting
+//lazy loading
+// dynamic bundling
+//ondemand loading
+
+const Grocery = lazy(() => import("./components/Grocery"));
 
 //React Element ==> Object ==> after renderimg then HTML Element
 // const heading = React.createElement("h1", { id: "heading" }, "Namaste React");
@@ -59,6 +68,14 @@ const appRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactUs />,
+      },
+      {
+        path: "/grocery",
+        element: (
+          <Suspense fallback={<h1>Loading</h1>}>
+            <Grocery />
+          </Suspense>
+        ),
       },
       {
         path: "/restaurants/:resI--d",

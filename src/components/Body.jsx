@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { FETCH_API } from "../utils/constants";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineOffline from "../utils/useOnlineOffline";
 
 const Body = () => {
   // Never use useState out side of component
@@ -28,6 +29,10 @@ const Body = () => {
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
+  const onlineStatus = useOnlineOffline();
+
+  onlineStatus ? "🟢" : "🔴";
+
   //Conditional Rendering
   return listOfRestaurants.length === 0 ? (
     <Shimmer />
